@@ -1,0 +1,129 @@
+    html {
+      font-size: 14px;
+    }
+
+    @media (min-width: 768px) {
+      html {
+        font-size: 16px;
+      }
+    }
+
+    .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+      box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+    }
+
+    html {
+      position: relative;
+      min-height: 100%;
+    }
+
+    /* Basic global styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 100px;
+    background: linear-gradient(135deg, #cfc3e5, #e8efed, #dec4b1);
+}
+
+    /* Form and button styling */
+    #reportForm {
+        background-color: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .report {
+    background: linear-gradient(to right, blue, red, orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    /*filter: drop-shadow(1px 2px 7px blue);*/
+    -webkit-text-stroke: 1px blue;
+    text-shadow: 3px 3px 5px rgba(50, 0, 20, 0.3);
+    margin-top:50px;
+    
+    }
+
+.datebox {
+    border-radius: 10px;
+    background-color: white;
+    border: thin;
+    /*filter: drop-shadow(0px 3px 8px black);*/
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin-bottom:20px;
+    margin-top:15px;
+}
+
+    .btn {
+    border: thin solid white;
+    filter: drop-shadow(1px 2px 5px black);
+    }
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+        border-radius: 50px;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #f0f8ff !important;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    h2 {
+        color: #007bff;
+        font-weight: 600;
+    }
+
+    button.btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+
+    button.btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    button.btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    button.btn-success:hover {
+        background-color: #218838;
+    }
+/*Table Css*/
+/*.table-head {
+    background-color:burlywood;
+}*/
+
+.table-responsive table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures no gaps between table cells */
+    border-radius: 10px;
+    border: thin;
+/*    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+*/    filter: drop-shadow(0px 3px 8px black);
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.table-responsive th,
+.table-responsive td {
+    padding: 8px 12px;
+    border: 0px solid #ddd; /* Adds border to table cells */
+    text-align: center; /* Aligns the text inside the cells */
+}
+
+.table-responsive th {
+    background-color: burlywood; /* Light gray background for header */
+}
+
+.table-responsive tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row color for better readability */
+}
+
